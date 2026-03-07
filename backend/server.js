@@ -7,8 +7,7 @@ import bcrypt from 'bcrypt';
 import cron from 'node-cron';
 
 dotenv.config();
-// Optional: Uncomment if using whatsapp-web.js for local testing
-// const { initWhatsAppClient, sendWhatsAppMessage, getWhatsAppStatus } = require('./whatsapp-service');
+
 
 const app = express();
 
